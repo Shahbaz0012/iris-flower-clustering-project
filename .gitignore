@@ -1,0 +1,19 @@
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Generated artifacts
+models/*
+!models/.gitkeep
+reports/*.json
+reports/*.csv
+reports/figures/*
+!reports/figures/.gitkeep
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
